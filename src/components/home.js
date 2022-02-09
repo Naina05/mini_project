@@ -18,7 +18,6 @@ const Home = () => {
                 <Items />
                 <Items />
                 <Items />
-                <Items />
           </div>
           </div>
          
