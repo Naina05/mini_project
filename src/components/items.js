@@ -5,6 +5,7 @@ const Items = () => {
         <div className="items">
                   
         </div>
+        <button className="addtocart">Add to Cart</button>
   </div>;
 };
 

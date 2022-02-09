@@ -12,11 +12,12 @@ const Header = () => {
       <div className="toggleMenu">
          <BarChart className="toggleIcon" />
      </div>
+     <h1> Shopping App</h1>
       <img src={process.env.PUBLIC_URL + "/images/images.jpg"} alt="" className="logo"/>
 
      <div  className='inputbox'>
          <SearchRounded className='searchIcon'/>
-         <input type="text" placeholder="Search" />
+         <input type="text" placeholder="Search items" />
      </div>
 
      <div className="shopingCart">
@@ -30,7 +31,7 @@ const Header = () => {
              <img src="" alt="" />
          </div>
 
-         <h2 className="username"> Sumer kumar</h2>
+         <h2 className="username"> User ID</h2>
      </div>
      
   </header>

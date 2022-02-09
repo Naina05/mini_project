@@ -13,12 +13,13 @@
 header{
   height: 70px;
   width: 100%;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
  
   
-  background-color:#d03233;
+  background-color:#3FEEE6;
   top: 0;
   left: 0;
   z-index: 101;
@@ -108,6 +109,7 @@ header{
 .profileContainer .username{
   font-size: 16px;
   margin-left: 8px;
+  margin-right: 20px;
   font-weight: 500;
   display: flex;
 }
@@ -193,13 +195,14 @@ header{
 }
 
 .menu_container{
-  width: 60px;
-  height: 250px;
+  width: 70px;
+  height: 400px;
   top: 170px;
+  position: fixed;
   background: #fc4445;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -211,7 +214,7 @@ header{
   height: 50px;
   position: absolute;
   margin-left: 34%;
-  background: #fc4445;
+  background: #FFCC44;
   border-bottom-left-radius:20px ;
   border-bottom-right-radius: 20px;
   display: flex;
@@ -220,7 +223,7 @@ header{
 }
 .headings h1{
   font-size: 25px;
-  color: black;
+  color: rgb(5, 5, 5);
 }
 /*items css */
 .item_MainContainer{
@@ -229,28 +232,46 @@ header{
   background: #3feee6;
 }
 .item_MainContainer .itemContainer{
-  background: #787a84;
-  width: 85%;
+  background: #F5FFFE;
+  width: 100%;
   margin: auto;
-  padding-top: 10%;
-  padding-left: 3%;
+  padding-top:2%;
+  padding-left: 13%;
   height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+.menuIcon{
+  color:#fff;
+  font-size: 100%;
+}
+
 .itemC{
-  width: 200px;
+  width: 250px;
   height: 250px;
-  margin-top: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.addtocart{
+  width: 250px;
+  height: 50px;
+  margin-top: 15px;
+  background-color: #fc4445;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
 }
 .item_MainContainer .itemContainer .items{
   width: 100%;
   height: 100%;
-  background-color: #f8901c;
-  border: 3px solid black;
-  border-radius: 14%;
-  box-shadow:2px 5px 20px rgb(21 9 9 / 80%);;
+  background-color: #f8f5f2;
+  /* border: 3px solid rgb(99, 201, 226); */
+  border-radius: 10%;
+  box-shadow: 1px 1px 5px rgba(6, 97, 97, 0.8);
 }
